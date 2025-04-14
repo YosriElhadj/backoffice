@@ -7,44 +7,79 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Row(
-        children: [
-          // Left Side - Branding
-          Expanded(
-            flex: 2,
+      body: Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [
+              AppColors.primary,
+              AppColors.primaryDark,
+            ],
+          ),
+        ),
+        child: Center(
+          child: SingleChildScrollView(
             child: Container(
-              color: AppColors.primary,
-              child: Center(
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    FlutterLogo(size: 100),
-                    const SizedBox(height: 20),
-                    Text(
-                      'TheBoost Backoffice',
-                      style: AppStyles.headline1.copyWith(color: Colors.white),
+              width: 400,
+              padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 40),
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(20),
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black.withOpacity(0.1),
+                    spreadRadius: 5,
+                    blurRadius: 20,
+                    offset: Offset(0, 10),
+                  ),
+                ],
+              ),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  // Logo
+                  Container(
+                    width: 100,
+                    height: 100,
+                    decoration: BoxDecoration(
+                      color: AppColors.primary.withOpacity(0.1),
+                      shape: BoxShape.circle,
                     ),
-                    const SizedBox(height: 10),
-                    Text(
-                      'Admin Management Platform',
-                      style: AppStyles.bodyRegular.copyWith(color: Colors.white70),
+                    child: Center(
+                      child: Icon(
+                        Icons.dashboard,
+                        size: 60,
+                        color: AppColors.primary,
+                      ),
                     ),
-                  ],
-                ),
+                  ),
+                  SizedBox(height: 20),
+
+                  // Title
+                  Text(
+                    'TheBoost Admin',
+                    style: AppStyles.headline1.copyWith(
+                      color: AppColors.primary,
+                      fontSize: 28,
+                    ),
+                  ),
+                  SizedBox(height: 10),
+                  Text(
+                    'Admin Management Platform',
+                    style: AppStyles.bodyRegular.copyWith(
+                      color: Colors.grey[600],
+                    ),
+                  ),
+                  SizedBox(height: 30),
+
+                  // Login Form
+                  LoginForm(),
+                ],
               ),
             ),
           ),
-          
-          // Right Side - Login Form
-          Expanded(
-            flex: 3,
-            child: Container(
-              color: Colors.white,
-              padding: const EdgeInsets.symmetric(horizontal: 64, vertical: 32),
-              child: LoginForm(),
-            ),
-          ),
-        ],
+        ),
       ),
     );
   }

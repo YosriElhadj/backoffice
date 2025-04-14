@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import '../../../../core/utils/validators.dart';
 import '../providers/auth_provider.dart';
+import '../../../../core/constants/app_colors.dart';
+import '../../../../core/constants/app_styles.dart';
+import '../../../../core/utils/validators.dart';
 
 class LoginForm extends ConsumerStatefulWidget {
   const LoginForm({Key? key}) : super(key: key);
@@ -16,19 +18,11 @@ class _LoginFormState extends ConsumerState<LoginForm> {
   final _passwordController = TextEditingController();
   bool _obscurePassword = true;
 
-  @override
-  void dispose() {
-    _emailController.dispose();
-    _passwordController.dispose();
-    super.dispose();
-  }
-
   void _submitForm() {
     if (_formKey.currentState!.validate()) {
-      // Trigger login via Riverpod provider
       ref.read(authStateProvider.notifier).login(
-        _emailController.text.trim(), 
-        _passwordController.text.trim()
+        _emailController.text.trim(),
+        _passwordController.text.trim(),
       );
     }
   }
@@ -38,20 +32,18 @@ class _LoginFormState extends ConsumerState<LoginForm> {
     // Listen to auth state changes
     final authState = ref.watch(authStateProvider);
 
-    // Handle navigation and error states
+    // Handle navigation and errors
     ref.listen<AuthState>(authStateProvider, (previous, next) {
-      if (next.user != null) {
-        // Successful login - navigate to dashboard
+      if (next.isAuthenticated) {
         Navigator.of(context).pushReplacementNamed('/dashboard');
       }
       
       if (next.error != null) {
-        // Show error snackbar
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
             content: Text(next.error!),
             backgroundColor: Colors.red,
-          )
+          ),
         );
       }
     });
@@ -61,29 +53,28 @@ class _LoginFormState extends ConsumerState<LoginForm> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          // Email Field
           TextFormField(
             controller: _emailController,
             decoration: InputDecoration(
               labelText: 'Email Address',
-              prefixIcon: Icon(Icons.email),
+              prefixIcon: Icon(Icons.email, color: AppColors.primary),
             ),
             validator: Validators.validateEmail,
             keyboardType: TextInputType.emailAddress,
           ),
-          SizedBox(height: 16),
-
-          // Password Field
+          const SizedBox(height: 16),
+          
           TextFormField(
             controller: _passwordController,
             decoration: InputDecoration(
               labelText: 'Password',
-              prefixIcon: Icon(Icons.lock),
+              prefixIcon: Icon(Icons.lock, color: AppColors.primary),
               suffixIcon: IconButton(
                 icon: Icon(
                   _obscurePassword 
                     ? Icons.visibility_off 
-                    : Icons.visibility
+                    : Icons.visibility,
+                  color: AppColors.primary,
                 ),
                 onPressed: () {
                   setState(() {
@@ -95,14 +86,13 @@ class _LoginFormState extends ConsumerState<LoginForm> {
             obscureText: _obscurePassword,
             validator: Validators.validatePassword,
           ),
-          SizedBox(height: 24),
-
-          // Login Button
+          const SizedBox(height: 24),
+          
           ElevatedButton(
             onPressed: authState.isLoading ? null : _submitForm,
             child: authState.isLoading
-              ? CircularProgressIndicator()
-              : Text('Login'),
+              ? const CircularProgressIndicator()
+              : const Text('Login'),
           ),
         ],
       ),
