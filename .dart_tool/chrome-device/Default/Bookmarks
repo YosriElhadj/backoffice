@@ -1,0 +1,171 @@
+{
+   "checksum": "d2573dff5e190c416a3fa925b4f19f02",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13338433203846274",
+            "date_last_used": "0",
+            "guid": "2becc602-abed-43fb-bab9-82196f52eb70",
+            "id": "11",
+            "name": "Gmail",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://accounts.google.com/b/0/AddMailService",
+            "visit_count": 0
+         }, {
+            "date_added": "13338433203847154",
+            "date_last_used": "0",
+            "guid": "a3b9bd77-1b3a-4588-bb1a-edc15bbc3588",
+            "id": "12",
+            "name": "YouTube",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://youtube.com/",
+            "visit_count": 0
+         }, {
+            "date_added": "13338433203847651",
+            "date_last_used": "0",
+            "guid": "5583a347-9adc-46c8-8020-a39c6d38fb1d",
+            "id": "13",
+            "name": "Maps",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://maps.google.com/",
+            "visit_count": 0
+         }, {
+            "date_added": "13362640088744023",
+            "date_last_used": "0",
+            "guid": "bf55764a-e6ee-4ee2-9f1f-9a29211b325e",
+            "id": "14",
+            "name": "innov1",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.canva.com/design/DAGH13s3s8w/zfcBCDmX-7-BuGuoY2YizA/edit",
+            "visit_count": 0
+         }, {
+            "date_added": "13362696819698154",
+            "date_last_used": "0",
+            "guid": "6eb3b011-0ede-4ea7-87cb-dcab1c9cec81",
+            "id": "15",
+            "name": "innov2",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.canva.com/design/DAGH6F5aY3k/-hbcyCzl-TcEuIHfQi1xCw/edit",
+            "visit_count": 0
+         }, {
+            "date_added": "13346689990798272",
+            "date_last_used": "0",
+            "guid": "77c54ba5-35c2-4e1e-8277-0d5f34a72bef",
+            "id": "16",
+            "name": "Adobe Acrobat",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://acrobat.adobe.com/?x_api_client_id=bookmark&x_api_client_location=Reader",
+            "visit_count": 0
+         }, {
+            "date_added": "13374616735160629",
+            "date_last_used": "0",
+            "guid": "462daf3d-4a00-4d18-ae3f-e6e148785f06",
+            "id": "17",
+            "name": "Courrier - Yosri ELHADJ - Outlook",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://outlook.office365.com/mail/inbox/id/AAQkADdiMzRkZGQ5LTJjMjYtNGViMC05ZGUzLTQzZGUzYWJiYzhmMQAQABoBJY%2BBGodBpH3zstW6OAI%3D/sxs/AAMkADdiMzRkZGQ5LTJjMjYtNGViMC05ZGUzLTQzZGUzYWJiYzhmMQBGAAAAAAD6Xti65qh3RIqWXxdZJBBjBwAj6J5sC7SZSILQej%2FSFzYdAAAAAAEMAAAj6J5sC7SZSILQej%2FSFzYdAADyqaFVAAABEgAQABVGNCmo5DpHhZdoIzdtRGI%3D",
+            "visit_count": 0
+         } ],
+         "date_added": "13389061499101590",
+         "date_last_used": "0",
+         "date_modified": "13374616735160629",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13371300327504341",
+               "date_last_used": "0",
+               "guid": "aac77ee0-837c-436e-a372-191683ac5423",
+               "id": "7",
+               "name": "Material Design",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://m3.material.io/",
+               "visit_count": 0
+            }, {
+               "date_added": "13371300352294902",
+               "date_last_used": "0",
+               "guid": "41e1b695-d94f-447d-aed3-4376a75c8d1c",
+               "id": "8",
+               "name": "Figma: The Collaborative Interface Design Tool",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.figma.com/",
+               "visit_count": 0
+            }, {
+               "date_added": "13371304012211322",
+               "date_last_used": "0",
+               "guid": "ef36dd4e-0b6d-4912-a9e2-c2eebbd1e211",
+               "id": "9",
+               "name": "Google Codelabs",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://codelabs.developers.google.com/",
+               "visit_count": 0
+            } ],
+            "date_added": "13378164091606307",
+            "date_last_used": "0",
+            "date_modified": "13378164091606307",
+            "guid": "3878e3b9-906f-4663-a289-2dc2d5e1029d",
+            "id": "6",
+            "name": "Android",
+            "source": "unknown",
+            "type": "folder"
+         }, {
+            "date_added": "13378161265460925",
+            "date_last_used": "0",
+            "guid": "da23a0e2-f2eb-4191-9c7a-671bdca97411",
+            "id": "10",
+            "name": "Swagger UI",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "http://localhost:8081/Foyer/swagger-ui/index.html#/",
+            "visit_count": 0
+         } ],
+         "date_added": "13389061499101592",
+         "date_last_used": "0",
+         "date_modified": "13378161265460925",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13389061499101593",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CkEKHgiIgQISCO06hjGWAQAAKg4QABgBIAAoBjAAOABAABIAKhh5ZmRHa0phUnNDU1ErQ3hWK2hzNHJBPT1IA6AGDBKtAQgREqgBChw5VHRtbERQVlhCbnVMVDQ4c3FHbXlISERoQVU9EiQ0NjJkYWYzZC00YTAwLTRkMTgtYWUzZi1lNmUxNDg3ODVmMDYYACAAKAAw0oWZjr0yOO+ImY69MkDviJmOvTJKHHJTUlN6bnhDR3V2WU96RDFiZGZ4V3V2b01pUT1aHyId/FV6c0s4aVR1V05EQlcvcExsWnVHMC9TM1J5ND1l+ouJZ8I+AmAFEq0BCA4SqAEKHGRjeUMveVF3c2RXSzJnWUZ1RWZQS1F4WDJqaz0SJGJmNTU3NjRhLWU2ZWUtNGVlMi05ZjFmLTlhMjkyMTFiMzI1ZRgAIAAoADDRhZmOvTI4x4iZjr0yQMeImY69MkocZEhEVnJ0ZlRwWWhqOG1xMHM0Rk9WYzROVGhvPVofIh3mQTVib2o4UE1QRFhQejh0VGk2YlUrYXpQNHRFPWV+kLXXwj4CYAUSrQEIDRKoAQocNnNZWHJoYXg3YWpsWW5hVzNhVWF0Z3Z1Zk13PRIkNTU4M2EzNDctOWFkYy00NmM4LTgwMjAtYTM5YzZkMzhmYjFkGAAgACgAMNSFmY69MjipiZmOvTJAqYmZjr0yShxUczZ0cWJTcGdtOVR2QXZuR3hwK1NubFNtWkE9Wh8iHc1tSVNDSWJBclVURGtOL2djeUE5eDZxcHd1NGM9ZZ6Qm4LCPgJgBRKtAQgPEqgBChw0ZDBVZWswdFFMZThRc1VONklncHpsaitFWjg9EiQ2ZWIzYjAxMS0wZWRlLTRlYTctODdjYi1kY2FiMWM5Y2VjODEYACAAKAAw0IWZjr0yOKuImY69MkCriJmOvTJKHDhlNDhlT1VrVWdFRnNhOWJhaEZOcUlLTWFJND1aHyId81ZTTzRXZzZ3bWZCb3VJdTlTSVJ3RzBEUFVLbz1lfpC118I+AmAFEqwBCAsSpwEKHHFWT0JMZjZSVkFiaFhadmxWWU1tdVRDQ0hlQT0SJDJiZWNjNjAyLWFiZWQtNDNmYi1iYWI5LTgyMTk2ZjUyZWI3MBgAIAAoADDThZmOvTI4jImZjr0yQIyJmY69MkoccjgvSUExVysxb1c3TkJpMVNKZFQ1bTJaRVZvPVoeIhw0T254bFpXVkFVLy9xY09sbVlmd3duOVlJYlE9ZULtCz7CPgJgBRKOAQgBEokBChx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9EiRjYmUyNThiYi0xZmYzLTU0ZjAtOTJiMi02OTU4NWZjMTc2NTMYACAAKAAwnNDi8bkyOLXT4vG5MkC10+LxuTJKHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1aAGUAAAAAwj4CYAASjgEIAhKJAQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRIkNDFjMzRlZTQtMzJiZC01NGRhLTk2MmUtNzQyZWRmZTIzNGJiGAAgACgAMJ3Q4vG5MjjP0+LxuTJAz9Pi8bkyShxvUFZraHdCUmJWNjVLQ1dSMitJT05IV29PdTg9WgBlAAAAAMI+AmAAEqwBCAcSpwEKHGN5OFMxRzVVRHVlNGNzUDQvdExZVXROYXhGZz0SJGFhYzc3ZWUwLTgzN2MtNDM2ZS1hMzcyLTE5MTY4M2FjNTQyMxgAIAAoADD4nJmOvTI4vZ6Zjr0yQL2emY69MkocSDUxUWRwR01hbzhHZVVJdDlvZEdYVFRTZjNvPVoeIhxLYzRLcHJobVV4UVhicUsrNXNxai9zNUhmSms9ZdlJd6nCPgJgBRKtAQgMEqgBChw5Mjk3K2M4dExKSFpxckZURnRkbWoyRW9mREE9EiRhM2I5YmQ3Ny0xYjNhLTQ1ODgtYmIxYS1lZGMxNWJiYzM1ODgYACAAKAAw1YWZjr0yOMSJmY69MkDEiZmOvTJKHFlDUHgvT2ZOZ2dGTGJHeUZhSlYvVHRYVUo0TT1aHyIdmi9iM2lKaWwrTlN0VTlTbHNYYXE5ZXpRTHBPVT1le5xBGsI+AmAFEqwBCAoSpwEKHE5SRXpaYitpWmZKOUVnUjdNbnpVQTRKTXdIVT0SJGRhMjNhMGUyLWYyZWItNDE5MS05YzdhLTY3MWJkY2E5NzQxMRgAIAAoADD3nJmOvTI4n56Zjr0yQJ+emY69MkocRWdWeEJTQzNBMUxJUlZ1Ky9GY0RLSG11a0hJPVoeIhx6aVprK29ZaXJxSXNkWGFpNkJDcGxqalIydU09ZfUNxDnCPgJgBRKtAQgQEqgBChxjVng5dFRmbGxMMThlNWN3TnRZRjRJdCtwRDg9EiQ3N2M1NGJhNS0zNWMyLTRlMWUtODI3Ny0wZDVmMzRhNzJiZWYYACAAKAAwzoWZjr0yOOmHmY69MkDph5mOvTJKHHR3M2thdVVPSG93dDlmQmNhQWdnNmQ4TlNoQT1aHyId+WpnQnBtTXdkaVRpVHNvY0JUd056bkg2d1JiYz1lAAAAAMI+AmAFEq0BCAkSqAEKHC91aVhMbThmSHF6SjJ4ODNGQzc4VXBPN3h6Zz0SJGVmMzZkZDRlLTBiNmQtNDkxMi1hOWUyLWMyZWViYmQxZTIxMRgAIAAoADD1nJmOvTI42p2Zjr0yQNqdmY69MkocMGVOdU1vTFJ2TkRHdXoxNVgwUExKOGtKOHhjPVofIh2yUWc3ZUFmanVnNjRQMzFlL2hXekZ0Ujd3akg0PWU4cCwCwj4CYAUSrAEICBKnAQocY2tpbVJUdkpaV01nSzVsQ051OEZ4Y05FVnk4PRIkNDFlMWI2OTUtZDk0Zi00NDdkLWFlZDMtNDM3NmE3NWM4ZDFjGAAgACgAMPacmY69Mjj3nZmOvTJA952Zjr0yShxqZWsvc0ExWGNnbHFEZXFVU3ZBZXdrRFR5TU09Wh4iHGVUUnA2WXU1TjlkUXBBbXNqc3NmTjJFdHZHVT1lAAAAAMI+AmAFEqwBCAYSpwEKHGdpZlpiNGE3N3ZqYW9TS0NGYzVrd20raUNVMD0SJDM4NzhlM2I5LTkwNmYtNDY2My1hMjg5LTJkYzJkNWUxMDI5ZBgAIAAoADDPhZmOvTI4hoiZjr0yQIaImY69MkocdTBPVVlnbUtTSHoyTmJ3SWxIa1NJT1lrVG9ZPVoeIhxIRHlwQVEzMlp3OTlkQmcwbG8wRUFZT1dSRU09ZQAAAADCPgJgABKOAQgDEokBChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EiRkM2NlNjBmNS00Y2Q0LTVmZjMtYTNjNi0xNzVhYzEwMGI0YmIYACAAKAAwotDi8bkyOILU4vG5MkCC1OLxuTJKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAwj4CYAAwADgA",
+   "version": 1
+}
